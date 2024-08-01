@@ -74,36 +74,6 @@ $(document).ready(function(){
 
 (jQuery);
 
-// $(document).ready(function(){
-//     $('.counter-value').each(function(){
-//         $(this).prop('Counter',0).animate({
-//             Counter: $(this).text()
-//         },{
-//             duration: 2000,
-//             easing: 'easeInQuad',
-//             step: function (now){
-//                 $(this).text(Math.ceil(now));
-//             }
-//         });
-//     });
-// });
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     Initialize counter
-//     let startTime = Date.now();
-
-//     // Function to update counter
-//     function updateCounter() {
-//         let currentTime = Date.now();
-//         let elapsedTime = Math.floor((currentTime - startTime) / 1000); // in seconds
-
-//         // Update the counter values based on elapsed time
-//         document.querySelectorAll('.counter-value').forEach(function(counterElement) {
-//             let currentValue = parseInt(counterElement.innerText.trim());
-//             let newValue = currentValue + elapsedTime;
-//             counterElement.innerText = newValue;
-//         });
-//     }
 
 
 
